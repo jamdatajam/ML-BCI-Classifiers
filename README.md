@@ -5,4 +5,4 @@
 	2) BCI_02 (2016) is from a later version of BCI_01 and does a significantly better job clustering and separating the right and left hand data for application as a thought-based computer/game controller.
 	3) BCI_03 (2017) is an update I did using newer research (Ubeda, Azorin, Chavarriaga, and Millan, 2017) into a more modern, multidirectional control schema for BCI based on Multi-Linear Regression.
 	4) BCI_04 (2018) contains an EEG classifier based on K-means Clustering (with restricted EEG channels based on channel verification) to see if it can be used effectively for characterizing right and left hand thought-based commands.
-	5) BCI_05 (2018) compares the efficacy of using a Random Forests classifier versus a 5-layer Neural Network when it comes to separating right and left hand movement tasks via EEG for use with a thought-based computer controller.
+	5) BCI_05 (2018) compares the efficacy of using a Random Forests classifier versus a 5-layer (3 hidden layers) Neural Network when it comes to separating right and left hand movement tasks via EEG for use with a thought-based computer controller.
