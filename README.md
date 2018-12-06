@@ -1,2 +1,8 @@
 # ML-BCI-Classifiers
-Some of my machine learning-based BCI (Brain Computer Interface) classifiers
+	This repository contains some of the brain-computer interface (BCI) classifiers I've built over the last few years. Most of these were developed using data from eeg left-hand, right-hand classification academic hackathon challenges used by universities to test/improve their students machine learning and eeg/emg classification skills. 
+	The code snippets here are as follows: 
+	1) BCI_01 (2016) is from a project I did as a grad student at JHU in biomedical engineering; the goal was to take right and left hand eeg data and develop a classifier that could be used to map class data (0-No Command; 1-Righthand; 2-Lefthand) to a Playstation 3/SteamOS button mapper as input controls for a computer and/or videogame. 
+	2) BCI_02 (2016) is from a later version of BCI_01 and does a significantly better job clustering and separating the right and left hand data for application as a thought-based computer/game controller.
+	3) BCI_03 (2017) is an update I did using newer research (Ubeda, Azorin, Chavarriaga, and Millan, 2017) into a more modern, multidirectional control schema for BCI based on Multi-Linear Regression.
+	4) BCI_04 (2018) contains an EEG classifier based on K-means Clustering (with restricted EEG channels based on channel verification) to see if it can be used effectively for characterizing right and left hand thought-based commands.
+	5) BCI_05 (2018) compares the efficacy of using a Random Forests classifier versus a 5-layer Neural Network when it comes to separating right and left hand movement tasks via EEG for use with a thought-based computer controller.
